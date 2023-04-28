@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Mathematical Formulae
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\vec#1{\underline{#1}} % vector
+\def\mat#1{{\mathbf #1}} % matrix 
+\def\rvec#1{\vec{\pmb{#1}}} % random vector
+\def\rv#1{{\pmb{#1}}} % random variable
+\def\Cov#1{\op{Cov}\!\braces{#1}} % covariance 
+\def\Var#1{\op{Var}\!\braces{#1}} % variance
+\def\E#1{\op{E}\!\braces{#1}} % expectation value
+\def\Menge#1{{\cal #1}} % set font
+\def\trace#1{\op{trace}(#1)} % trace spur 
+\def\1_2{{\frac{1}{2}}} % 1/2 fraction half
+\def\dd{{\,\op{d}}} % "d" operator for integration
+\def\T{ ^\top } % Transpose 
+\def\op#1{{\operatorfont{#1}}} % operatorfont
+\def\Gauss{{\cal N}}
+
+\DeclareMathOperator{\rect}{rect}
+\DeclareMathOperator{\I}{i}
+\DeclareMathOperator{\real}{real}
+\DeclareMathOperator{\sinc}{sinc}
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\xlog}{xlog}
+\DeclareMathOperator{\Ei}{Ei}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\EVOp}{E}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\def\ds{\displaystyle}
+\def\ns{\textstyle}
+
+\def\NewN{\mathbb{N}} % {{\rm I\hspace{-.17em}N}}
+\def\NewR{\mathbb{R}} % {{\rm I\hspace{-.17em}R}}
+\def\NewZ{\mathbb{Z}} % {{\sf Z\hspace{-.35em}Z}}
+\def\NewB{\mathbb{B}} % {{\rm I\hspace{-.17em}B}}
+\def\NewC{\mathbb{C}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Cross references
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\Eq#1{(\ref{#1})}
+\def\Chap#1{Chap.~\ref{#1}}
+\def\Sec#1{Sec.~\ref{#1}}
+\def\SubSec#1{Subsec.~\ref{#1}}
+\def\Ex#1{Example~\ref{#1}} 
+\def\Fig#1{Fig.~\ref{#1}}
+\def\Tab#1{Table~\ref{#1}}
+\def\Alg#1{Alg.~\ref{#1}}
+\def\Line#1{line~\ref{#1}}
+\def\Appendix#1{Appendix~\ref{#1}}
+\def\Def#1{Definition~\ref{#1}}
+\def\Lemma#1{Lemma~\ref{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Brackets
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand\bk[2]{\langle #1,\; #2 \rangle}          % \bk{a}{b}     <a,b> (bra ket)
+\newcommand\paren[1]{\left( #1 \right)}              % \paren{a}     (a)   (normal parentheses)
+\newcommand\brackets[1]{\left[ #1 \right]}           % \brackets{a}  [a]   (square brackets)
+\newcommand\braces[1]{\left\lbrace #1 \right\rbrace} % \braces{a}    {a}
+\newcommand\abs[1]{\left| #1 \right|}                % \abs{a}       |a|
+\newcommand\abss[1]{\left\| #1 \right\|}             % \abss{a}      ||a||
+\newcommand\hint[1]{ \quad \left\vert \; #1 \right.} % \hint{x^2}    |hint (on the right of an equation)
+\newcommand\ceil[1]{\left \lceil #1 \right \rceil}
+\newcommand\floor[1]{\left \lfloor #1 \right \rfloor}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Densities
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\fd#1#2{f_{{#1}}^{#2\!}}             % \fd{k}{v}(v) apperas as f_k^v(v) 
+\def\fdp#1{\fd{#1}{\op{p}}}    % prior fp
+\def\fde#1{\fd{#1}{\op{e}}}    % posterior fe
+\def\fdL#1{\fd{#1}{\op{L}}}    % likelihood fL
+\def\fdT#1{\fd{#1}{\op{T}}}    % transition density fT
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Figure
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Figure with [!htbp]
+% Usage: \Figure{filename}{caption}{label}{width}
+\newcommand{\Figure}[4]{%
+	%
+	\begin{figure*}[!htbp]
+		%
+		\begin{center}
+			\includegraphics[width=#4\linewidth]{Figures/#1}
+		\end{center}
+		%
+		\caption{#2}
+		%
+		\label{#3}
+		%
+	\end{figure*}
+	%
+}%
