@@ -2244,16 +2244,6 @@ Abstract: We propose a simple and efficient method to obtain unweighted determin
   url       = {http://www.jstor.org/stable/2236703},
 }
 
-@Article{Dick2013_HighDimensionalIntegrationTheQuasiMonteCarloWaya,
-  author    = {Dick, Josef and Kuo, Frances Y and Sloan, Ian H},
-  journal   = {Acta Numerica},
-  title     = {{High-Dimensional Integration: The Quasi-Monte Carlo Way}},
-  year      = {2013},
-  pages     = {133--288},
-  volume    = {22},
-  publisher = {Cambridge University Press},
-}
-
 @Article{Brandts2011_OnAngleConditionsInTheFiniteElementMethod,
   author    = {Brandts, Jan and Hannukainen, Antti and Korotov, Sergey and K{\v{r}}{\^\i}{\v{z}}ek, Michal},
   journal   = {SeMA Journal},
