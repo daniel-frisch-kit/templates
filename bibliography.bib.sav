@@ -2168,6 +2168,90 @@ Abstract: We propose a simple and efficient method to obtain unweighted determin
   keywords = {Covariance matrices, Estimation theory, Hypercubes, Kalman filter, Kalman filters, lattice rules, Lattices, Licenses, Mathematical model, Noise measurement, quasi-Monte Carlo methods, randomly shifted lattice points},
 }
 
+@Article{Flury1990_AcceptanceRejectionSamplingMadeEasy,
+  author    = {Flury, Bernard D},
+  journal   = {SIAM Review},
+  title     = {{Acceptance--Rejection Sampling Made Easy}},
+  year      = {1990},
+  number    = {3},
+  pages     = {474--476},
+  volume    = {32},
+  publisher = {SIAM},
+}
+
+
+@Article{Maranas1995_NewResultsInThePackingOfEqualCirclesInASquare,
+  author   = {Maranas, Costas D. and Floudas, Christodoulos A. and Pardalos, Panos M.},
+  journal  = {Discrete Mathematics},
+  title    = {New results in the packing of equal circles in a square},
+  year     = {1995},
+  issn     = {0012-365X},
+  month    = jul,
+  number   = {1},
+  pages    = {287--293},
+  volume   = {142},
+  abstract = {The problem of finding the maximum diameter of n equal mutually disjoint circles inside a unit square is addressed in this paper. Exact solutions exist for only n = 1, …, 9,10,16,25,36 while for other n only conjectural solutions have been reported. In this work a max-min optimization approach is introduced which matches the best reported solutions in the literature for all n ⩽ 30, yields a better configuration for n = 15, and provides new results for n = 28 and 29.},
+  doi      = {10.1016/0012-365X(93)E0230-2},
+  file     = {ScienceDirect Full Text PDF:/home/frisch/Zotero/storage/VT443D5K/Maranas et al. - 1995 - New results in the packing of equal circles in a s.pdf:application/pdf;ScienceDirect Snapshot:/home/frisch/Zotero/storage/UHZCJ8Y6/0012365X93E02302.html:text/html},
+  language = {en},
+  url      = {https://www.sciencedirect.com/science/article/pii/0012365X93E02302},
+  urldate  = {2022-10-12},
+}
+
+@InBook{Szabo2005_GlobalOptimizationInGeometryCirclePackingIntoTheSquare,
+  author    = {Szab{\'o}, P{\'e}ter G{\'a}bor and Mark{\'o}t, Mih{\'a}ly Csaba and Csendes, Tibor},
+  pages     = {233--265},
+  publisher = {Springer US},
+  title     = {Global Optimization in Geometry --- Circle Packing into the Square},
+  year      = {2005},
+  address   = {Boston, MA},
+  isbn      = {978-0-387-25570-5},
+  abstract  = {The present review paper summarizes the research work done mostly by the authors on packing equal circles in the unit square in the last years.},
+  booktitle = {Essays and Surveys in Global Optimization},
+  doi       = {10.1007/0-387-25570-2_9},
+  url       = {https://doi.org/10.1007/0-387-25570-2_9},
+}
+
+@Article{Geyer1992_PracticalMarkovChainMonteCarlo,
+  author    = {Geyer, Charles J},
+  journal   = {Statistical science},
+  title     = {{Practical Markov Chain Monte Carlo}},
+  year      = {1992},
+  pages     = {473--483},
+  publisher = {JSTOR},
+}
+
+@Article{Ebeida2011_EfficientMaximalPoissonDiskSampling,
+  author    = {Ebeida, Mohamed S and Davidson, Andrew A and Patney, Anjul and Knupp, Patrick M and Mitchell, Scott A and Owens, John D},
+  journal   = {ACM Transactions on Graphics (TOG)},
+  title     = {{Efficient Maximal Poisson-Disk Sampling}},
+  year      = {2011},
+  number    = {4},
+  pages     = {1--12},
+  volume    = {30},
+  publisher = {ACM New York, NY, USA},
+}
+
+@Article{Bridson2007_FastPoissonDiskSamplingInArbitraryDimensions,
+  author  = {Bridson, Robert},
+  journal = {SIGGRAPH sketches},
+  title   = {{Fast Poisson Disk Sampling in Arbitrary Dimensions}},
+  year    = {2007},
+  number  = {1},
+  pages   = {1},
+  volume  = {10},
+}
+
+@Article{Fernandez2020_AdaptiveQuadratureSchemesForBayesianInferenceViaActiveLearning,
+  author  = {Fernández, Fernando Llorente and Martino, Luca and Elvira, Victor and Delgado, David and López-Santiago, Javier},
+  journal = {IEEE Access},
+  title   = {Adaptive Quadrature Schemes for Bayesian Inference via Active Learning},
+  year    = {2020},
+  pages   = {208462-208483},
+  volume  = {8},
+  doi     = {10.1109/ACCESS.2020.3038333},
+}
+
 @Article{Kullback1951_OnInformationAndSufficiency,
   author    = {S. Kullback and R. A. Leibler},
   journal   = {The Annals of Mathematical Statistics},
