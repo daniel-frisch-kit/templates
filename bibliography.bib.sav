@@ -1228,16 +1228,6 @@ Abstract: We propose a simple and efficient method to obtain unweighted determin
   publisher = {Elsevier},
 }
 
-@Article{Dick2013_HighDimensionalIntegrationTheQuasiMonteCarloWay,
-  author    = {Dick, Josef and Kuo, Frances Y and Sloan, Ian H},
-  journal   = {Acta Numerica},
-  title     = {{High-Dimensional Integration: The Quasi-Monte Carlo Way}},
-  year      = {2013},
-  pages     = {133--288},
-  volume    = {22},
-  publisher = {Cambridge University Press},
-}
-
 
 @InProceedings{Todorov2021_AdvancedQuasiMonteCarloAlgorithmsForMultidimensionalIntegralsInAirPollutionModelling,
   author    = {Todorov, Venelin and Dimov, Ivan and Ostromsky, Tzvetan and Zlatev, Zahari},
@@ -1756,7 +1746,7 @@ Abstract: We propose a simple and efficient method to obtain unweighted determin
   url       = {https://www.biodiversitylibrary.org/item/34445},
 }
 
-@Article{Dick2013_HighDimensionalIntegrationTheQuasiMonteCarloWaya,
+@Article{Dick2013_HighDimensionalIntegrationTheQuasiMonteCarloWay,
   author    = {Dick, Josef and Kuo, Frances Y. and Sloan, Ian H.},
   journal   = {Acta Numerica},
   title     = {{High-Dimensional Integration: The Quasi-Monte Carlo Way}},
@@ -2103,17 +2093,6 @@ Abstract: We propose a simple and efficient method to obtain unweighted determin
   doi     = {10.1109/TAC.2009.2019800},
 }
 
-@Article{Kotecha2003_GaussianParticleFiltering,
-  author  = {Kotecha, J.H. and Djuric, P.M.},
-  journal = {IEEE Transactions on Signal Processing},
-  title   = {{Gaussian Particle Filtering}},
-  year    = {2003},
-  number  = {10},
-  pages   = {2592-2601},
-  volume  = {51},
-  doi     = {10.1109/TSP.2003.816758},
-}
-
 @Article{Phillips1980_ASurveyOfOneDimensionalAndMultidimensionalNumericalIntegration,
   author   = {G.M. Phillips},
   journal  = {Computer Physics Communications},
@@ -2263,6 +2242,133 @@ Abstract: We propose a simple and efficient method to obtain unweighted determin
   volume    = {22},
   publisher = {Institute of Mathematical Statistics},
   url       = {http://www.jstor.org/stable/2236703},
+}
+
+@Article{Dick2013_HighDimensionalIntegrationTheQuasiMonteCarloWaya,
+  author    = {Dick, Josef and Kuo, Frances Y and Sloan, Ian H},
+  journal   = {Acta Numerica},
+  title     = {{High-Dimensional Integration: The Quasi-Monte Carlo Way}},
+  year      = {2013},
+  pages     = {133--288},
+  volume    = {22},
+  publisher = {Cambridge University Press},
+}
+
+@Article{Brandts2011_OnAngleConditionsInTheFiniteElementMethod,
+  author    = {Brandts, Jan and Hannukainen, Antti and Korotov, Sergey and K{\v{r}}{\^\i}{\v{z}}ek, Michal},
+  journal   = {SeMA Journal},
+  title     = {{On Angle Conditions in the Finite Element Method}},
+  year      = {2011},
+  number    = {1},
+  pages     = {81--95},
+  volume    = {56},
+  publisher = {Springer},
+}
+
+@Article{Kucherenko2005_ApplicationOfDeterministicLowDiscrepancySequencesInGlobalOptimization,
+  author    = {Kucherenko, Sergei and Sytsko, Yury},
+  journal   = {Computational Optimization and Applications},
+  title     = {{Application of Deterministic Low-Discrepancy Sequences in Global Optimization}},
+  year      = {2005},
+  number    = {3},
+  pages     = {297--318},
+  volume    = {30},
+  publisher = {Springer},
+}
+
+@Article{Calinon2020_GaussiansOnRiemannianManifoldsApplicationsForRobotLearningAndAdaptiveControl,
+  author  = {Calinon, Sylvain},
+  journal = {IEEE Robotics \& Automation Magazine},
+  title   = {{Gaussians on Riemannian Manifolds: Applications for Robot Learning and Adaptive Control}},
+  year    = {2020},
+  number  = {2},
+  pages   = {33-45},
+  volume  = {27},
+  doi     = {10.1109/MRA.2020.2980548},
+}
+
+@Article{Henry2022_RobustEstimatorsInPartlyLinearRegressionModelsOnRiemannianManifolds,
+  author    = {Henry, Guillermo and Rodriguezs, Daniela},
+  journal   = {Communications in Statistics-Theory and Methods},
+  title     = {{Robust Estimators in Partly Linear Regression Models on Riemannian Manifolds}},
+  year      = {2022},
+  pages     = {1--17},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{Wu2018_FastLinearQuaternionAttitudeEstimatorUsingVectorObservations,
+  author  = {Wu, Jin and Zhou, Zebo and Gao, Bin and Li, Rui and Cheng, Yuhua and Fourati, Hassen},
+  journal = {IEEE Transactions on Automation Science and Engineering},
+  title   = {{Fast Linear Quaternion Attitude Estimator Using Vector Observations}},
+  year    = {2018},
+  number  = {1},
+  pages   = {307-319},
+  volume  = {15},
+  doi     = {10.1109/TASE.2017.2699221},
+}
+
+@Article{Gonzalez2009_MeasurementOfAreasOnASphereUsingFibonacciAndLatitudeLongitudeLattices,
+  author  = {Gonz{\'a}lez, {\'A}lvaro},
+  journal = {Mathematical Geosciences},
+  title   = {Measurement of Areas on a Sphere Using Fibonacci and Latitude--Longitude Lattices},
+  year    = {2009},
+  issn    = {1874-8953},
+  month   = {11},
+  number  = {1},
+  pages   = {49},
+  volume  = {42},
+  day     = {28},
+  doi     = {10.1007/s11004-009-9257-x},
+  url     = {https://doi.org/10.1007/s11004-009-9257-x},
+}
+
+@Article{Sobol2011_ConstructionAndComparisonOfHighDimensionalSobolGenerators,
+  author    = {Sobol', Ilya M and Asotsky, Danil and Kreinin, Alexander and Kucherenko, Sergei},
+  journal   = {Wilmott},
+  title     = {{Construction and Comparison of High-Dimensional Sobol' Generators}},
+  year      = {2011},
+  number    = {56},
+  pages     = {64--79},
+  volume    = {2011},
+  publisher = {Wiley Online Library},
+}
+
+@Article{Keinert2015_SphericalFibonacciMapping,
+  author    = {Keinert, Benjamin and Innmann, Matthias and S{\"a}nger, Michael and Stamminger, Marc},
+  journal   = {ACM Transactions on Graphics (TOG)},
+  title     = {{Spherical Fibonacci Mapping}},
+  year      = {2015},
+  number    = {6},
+  pages     = {1--7},
+  volume    = {34},
+  publisher = {ACM New York, NY, USA},
+}
+
+@InProceedings{Wan2000_TheUnscentedKalmanFilterForNonlinearEstimation,
+  author       = {Wan, Eric A and Van Der Merwe, Rudolph},
+  booktitle    = {Proceedings of the IEEE 2000 Adaptive Systems for Signal Processing, Communications, and Control Symposium (Cat. No. 00EX373)},
+  title        = {{The Unscented Kalman Filter for Nonlinear Estimation}},
+  year         = {2000},
+  organization = {Ieee},
+  pages        = {153--158},
+}
+
+@InProceedings{Mammasis2008_TheFB5DistributionAndItsApplicationInWirelessCommunications,
+  author    = {Mammasis, K. and Stewart, R.W.},
+  booktitle = {2008 International ITG Workshop on Smart Antennas},
+  title     = {{The FB5 Distribution and its Application in Wireless Communications}},
+  year      = {2008},
+  pages     = {375-381},
+  doi       = {10.1109/WSA.2008.4475585},
+}
+
+@InProceedings{Okagbue2017_SolutionsOfChiSquareQuantileDifferentialEquation,
+  author    = {Okagbue, Hilary I and Adamu, Muminu O and Anake, Timothy A},
+  booktitle = {Proceedings of the World Congress on Engineering and Computer Science},
+  title     = {{Solutions of Chi-Square Quantile Differential Equation}},
+  year      = {2017},
+  pages     = {813--818},
+  volume    = {2},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
