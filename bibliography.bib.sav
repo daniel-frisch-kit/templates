@@ -2392,6 +2392,35 @@
   tba_volume = {16},
 }
 
+@Article{Graham1998_DensePackingsOfCongruentCirclesInACircle,
+  author   = {R. L. Graham and B. D. Lubachevsky and K. J. Nurmela and P. R. J. Östergård},
+  journal  = {Discrete Mathematics},
+  title    = {{Dense Packings of Congruent Circles in a Circle}},
+  year     = {1998},
+  issn     = {0012-365X},
+  number   = {1},
+  pages    = {139-154},
+  volume   = {181},
+  abstract = {The problem of finding packings of congruent circles in a circle, or, equivalently, of spreading points in a circle, is considered. Two packing algorithms are discussed, and the best packings found of up to 65 circles are presented.},
+  doi      = {https://doi.org/10.1016/S0012-365X(97)00050-2},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0012365X97000502},
+}
+
+@Article{Locatelli2002_PackingEqualCirclesInASquareADeterministicGlobalOptimizationApproach,
+  author   = {Marco Locatelli and Ulrich Raber},
+  journal  = {Discrete Applied Mathematics},
+  title    = {{Packing Equal Circles in a Square: A Deterministic Global Optimization Approach}},
+  year     = {2002},
+  issn     = {0166-218X},
+  number   = {1},
+  pages    = {139-166},
+  volume   = {122},
+  abstract = {In this paper the problem of packing n equal circles into the unit square will be considered. Starting from a general rectangular branch-and-bound algorithm, many tools, which exploit the special structure of the problem and properties fulfilled by some of its solutions, will be introduced and discussed. Computational results will be presented and, in particular, the optimality within a given tolerance of best known solutions in the literature for n=10–35, n=38,39 will be proved, with the exception of the case n=32 for which a new solution has been detected and proved to be optimal within the given tolerance. Moreover, a new solution for n=37 has been detected, but not yet proved to be optimal within the given tolerance.},
+  doi      = {https://doi.org/10.1016/S0166-218X(01)00359-6},
+  keywords = {Global optimization, Circle packing, Branch and bound},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0166218X01003596},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: saveActions:disabled;
