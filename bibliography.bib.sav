@@ -2338,6 +2338,60 @@
   url       = {https://doi.org/10.1137/141000671},
 }
 
+@Book{Nocedal2006_NumericalOptimization,
+  author    = {Jorge Nocedal and Stephen J. Wright},
+  publisher = {Springer},
+  title     = {Numerical Optimization},
+  year      = {2006},
+  address   = {New York, NY, USA},
+  edition   = {2e},
+}
+
+@Article{Mogensen2018_OptimAMathematicalOptimizationPackageForJulia,
+  author    = {Patrick K. Mogensen and Asbjørn N. Riseth},
+  journal   = {Journal of Open Source Software},
+  title     = {Optim: A mathematical optimization package for Julia},
+  year      = {2018},
+  number    = {24},
+  pages     = {615},
+  volume    = {3},
+  doi       = {10.21105/joss.00615},
+  publisher = {The Open Journal},
+  url       = {https://doi.org/10.21105/joss.00615},
+}
+
+
+
+
+
+
+
+
+@Article{Kirkpatrick1983_OptimizationBySimulatedAnnealing,
+  author   = {S. Kirkpatrick and C. D. Gelatt and M. P. Vecchi},
+  journal  = {Science},
+  title    = {Optimization by Simulated Annealing},
+  year     = {1983},
+  number   = {4598},
+  pages    = {671-680},
+  volume   = {220},
+  abstract = {There is a deep and useful connection between statistical mechanics (the behavior of systems with many degrees of freedom in thermal equilibrium at a finite temperature) and multivariate or combinatorial optimization (finding the minimum of a given function depending on many parameters). A detailed analogy with annealing in solids provides a framework for optimization of the properties of very large and complex systems. This connection to statistical mechanics exposes new information and provides an unfamiliar perspective on traditional optimization problems and methods.},
+  doi      = {10.1126/science.220.4598.671},
+  eprint   = {https://www.science.org/doi/pdf/10.1126/science.220.4598.671},
+  url      = {https://www.science.org/doi/abs/10.1126/science.220.4598.671},
+}
+
+@Article{Frisch2023_TheGeneralizedFibonacciGridAsLowDiscrepancyPointSetForOptimalDeterministicGaussianSampling,
+  author     = {Daniel Frisch and Uwe D. Hanebeck},
+  journal    = {Journal of Advances in Information Fusion},
+  title      = {{The Generalized Fibonacci Grid as Low-Discrepancy Point Set for Optimal Deterministic Gaussian Sampling}},
+  year       = {2023},
+  tba_month  = {#jun#},
+  tba_number = {1},
+  tba_pages  = {3--16},
+  tba_volume = {16},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: saveActions:disabled;
