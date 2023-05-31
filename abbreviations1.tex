@@ -54,6 +54,7 @@
 \crefname{equation}{}{} % prefix 
 \crefname{figure}{Figure}{Figures} % figure prefix 
 \crefname{paragraph}{Paragraph}{Paragraphs} % paragraph prefix 
+\crefname{chapter}{Chapter}{Chapters} % chapter prefix 
 
 % Compatibility
 \def\Eq#1{\cref{#1}}
@@ -102,7 +103,7 @@
 % Usage: \Figure{width} {label} {filename} {caption}
 % Generating Code: abc.m
 \newcommand{\Figure}[4]{%
-	\begin{figure*}[!htbp]
+	\begin{figure*}[t]
 		\begin{center}
 			\includegraphics[width=#1]{figures/#3}
 		\end{center}
