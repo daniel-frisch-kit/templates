@@ -127,6 +127,12 @@
 % % Generating Code: abc.m
 %\end{figure*}
 % ---------------------
+\newcommand{\Subfigure}[4] {%
+	\subcaptionbox{#4 \label{#2}}
+	[#1]
+	{\includegraphics{figures/#3}}
+}
+\begin{comment}
 \newcommand{\Subfigure}[4]{%
 	\begin{subfigure}[b]{#1} 
 		\centering 
@@ -136,6 +142,8 @@
 		\label{#2}
 	\end{subfigure} 
 }
+\end{comment}
+
 
 
 
