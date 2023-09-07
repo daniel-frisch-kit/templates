@@ -2988,6 +2988,126 @@ This chapter discusses computational investigations of low-discrepancy point set
   url          = {http://encyclopediaofmath.org/index.php?title=Spherical_coordinates&oldid=48774},
 }
 
+@Article{Dick2020_ANoteOnThePeriodicL2DiscrepancyOfKorobovsPSets,
+  author   = {Dick, Josef and Hinrichs, Aicke and Pillichshammer, Friedrich},
+  journal  = {Archiv der Mathematik},
+  title    = {{A Note on the Periodic $L_2$-Discrepancy of Korobov’s p-Sets}},
+  year     = {2020},
+  issn     = {1420-8938},
+  number   = {1},
+  pages    = {67--78},
+  volume   = {115},
+  abstract = {We study the periodic $$L_2$$-discrepancy of point sets in the d-dimensional torus. This discrepancy is intimately connected with the root-mean-square $$L_2$$-discrepancy of shifted point sets, with the notion of diaphony, and with the worst-case error of cubature formulas for the integration of periodic functions in Sobolev spaces of mixed smoothness. In discrepancy theory, many results are based on averaging arguments. In order to make such results relevant for applications, one requires explicit constructions of point sets with “average” discrepancy. In our main result, we study Korobov’s p-sets and show that this point sets have periodic $$L_2$$-discrepancy of average order. This result is related to an open question of Novak and Woźniakowski.},
+  doi      = {10.1007/s00013-020-01460-5},
+  refid    = {Dick2020},
+  url      = {https://doi.org/10.1007/s00013-020-01460-5},
+}
+
+@InBook{Dick2022_Introduction,
+  author    = {Dick, Josef and Kritzer, Peter and Pillichshammer, Friedrich},
+  pages     = {1--54},
+  publisher = {Springer International Publishing},
+  title     = {Introduction},
+  year      = {2022},
+  address   = {Cham},
+  isbn      = {978-3-031-09951-9},
+  abstract  = {The problem of numerical integration occurs in many practical applications. These range from computational mathematics, finance, statistics, and computer graphics to life sciences, to name just a few areas where integrals or expected values have to be computed. In most cases this cannot be done analytically, and one has to resort to numerical methods. For integrands depending only on one or maybe very few variables there are classical integration methods which can be applied very successfully.},
+  booktitle = {Lattice Rules: Numerical Integration, Approximation, and Discrepancy},
+  doi       = {10.1007/978-3-031-09951-9_1},
+  url       = {https://doi.org/10.1007/978-3-031-09951-9_1},
+}
+
+
+
+
+
+
+@Article{Janson2018_DeterministicSamplingBasedMotionPlanningOptimalityComplexityAndPerformance,
+  author   = {Lucas Janson and Brian Ichter and Marco Pavone},
+  journal  = {The International Journal of Robotics Research},
+  title    = {{Deterministic Sampling-Based Motion Planning: Optimality, Complexity, and Performance}},
+  year     = {2018},
+  number   = {1},
+  pages    = {46-61},
+  volume   = {37},
+  abstract = {Probabilistic sampling-based algorithms, such as the probabilistic roadmap (PRM) and the rapidly exploring random tree (RRT) algorithms, represent one of the most successful approaches to robotic motion planning, due to their strong theoretical properties (in terms of probabilistic completeness or even asymptotic optimality) and remarkable practical performance. Such algorithms are probabilistic in that they compute a path by connecting independently and identically distributed (i.i.d.) random points in the configuration space. Their randomization aspect, however, makes several tasks challenging, including certification for safety-critical applications and use of offline computation to improve real-time execution. Hence, an important open question is whether similar (or better) theoretical guarantees and practical performance could be obtained by considering deterministic, as opposed to random, sampling sequences. The objective of this paper is to provide a rigorous answer to this question. Specifically, we first show that PRM, for a certain selection of tuning parameters and deterministic low-dispersion sampling sequences, is deterministically asymptotically optimal, in other words, it returns a path whose cost converges deterministically to the optimal one as the number of points goes to infinity. Second, we characterize the convergence rate, and we find that the factor of sub-optimality can be very explicitly upper-bounded in terms of theℓ2 -dispersion of the sampling sequence and the connection radius of PRM. Third, we show that an asymptotically optimal version of PRM exists with computational and space complexity arbitrarily close to O(n) (the theoretical lower bound), where n is the number of points in the sequence. This is in contrast to the O(nlogn) complexity results for existing asymptotically optimal probabilistic planners. Fourth, we discuss extending our theoretical results and insights to other batch-processing algorithms such as FMT*, to non-uniform sampling strategies, to k-nearest-neighbor implementations, and to differentially constrained problems. Importantly, our main theoretical tool is the ℓ2-dispersion, an interesting consequence of which is that all our theoretical results also hold for low-ℓ2-dispersion random sampling (which i.i.d. sampling does not satisfy). In other words, achieving deterministic guarantees is really a matter of i.i.d. sampling versus non-i.i.d. low-dispersion sampling (with deterministic sampling as a prominent case), as opposed to random versus deterministic. Finally, through numerical experiments, we show that planning with deterministic (or random) low-dispersion sampling generally provides superior performance in terms of path cost and success rate.},
+  doi      = {10.1177/0278364917714338},
+  eprint   = {https://doi.org/10.1177/0278364917714338},
+  url      = {https://doi.org/10.1177/0278364917714338},
+}
+
+@InProceedings{Aistleitner2018_TusnadysProblemTheTransferencePrincipleAndNonUniformQMCSampling,
+  author    = {Aistleitner, Christoph and Bilyk, Dmitriy and Nikolov, Aleksandar},
+  booktitle = {Monte Carlo and Quasi-Monte Carlo Methods},
+  title     = {{Tusn{\'a}dy's Problem, the Transference Principle, and Non-Uniform QMC Sampling}},
+  year      = {2018},
+  address   = {Cham},
+  editor    = {Owen, Art B. and Glynn, Peter W.},
+  pages     = {169--180},
+  publisher = {Springer International Publishing},
+  abstract  = {It is well-known that for every {\$}{\$}N {\backslash}ge 1{\$}{\$}N≥1and {\$}{\$}d {\backslash}ge 1{\$}{\$}d≥1there exist point sets {\$}{\$}x{\_}1, {\backslash}dots , x{\_}N {\backslash}in [0,1]^d{\$}{\$}x1,⋯,xN∈[0,1]dwhose discrepancy with respect to the Lebesgue measure is of order at most {\$}{\$}({\backslash}log N)^{\{}d-1{\}} N^{\{}-1{\}}{\$}{\$}(logN)d-1N-1. In a more general setting, the first author proved together with Josef Dick that for any normalized measure {\$}{\$}{\backslash}mu {\$}{\$}$\mu$on {\$}{\$}[0,1]^d{\$}{\$}[0,1]dthere exist points {\$}{\$}x{\_}1, {\backslash}dots , x{\_}N{\$}{\$}x1,⋯,xNwhose discrepancy with respect to {\$}{\$}{\backslash}mu {\$}{\$}$\mu$is of order at most {\$}{\$}({\backslash}log N)^{\{}(3d+1)/2{\}} N^{\{}-1{\}}{\$}{\$}(logN)(3d+1)/2N-1. The proof used methods from combinatorial mathematics, and in particular a result of Banaszczyk on balancings of vectors. In the present note we use a version of the so-called transference principle together with recent results on the discrepancy of red-blue colorings to show that for any {\$}{\$}{\backslash}mu {\$}{\$}$\mu$there even exist points having discrepancy of order at most {\$}{\$}({\backslash}log N)^{\{}d-{\backslash}frac{\{}1{\}}{\{}2{\}}{\}} N^{\{}-1{\}}{\$}{\$}(logN)d-12N-1, which is almost as good as the discrepancy bound in the case of the Lebesgue measure.},
+  isbn      = {978-3-319-91436-7},
+}
+
+@InProceedings{Buchholz2018_QuasiMonteCarloVariationalInference,
+  author    = {Buchholz, Alexander and Wenzel, Florian and Mandt, Stephan},
+  booktitle = {Proceedings of the 35th International Conference on Machine Learning},
+  title     = {{Quasi-{M}onte {C}arlo Variational Inference}},
+  year      = {2018},
+  editor    = {Dy, Jennifer and Krause, Andreas},
+  month     = {10--15 Jul},
+  pages     = {668--677},
+  publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {80},
+  abstract  = {Many machine learning problems involve Monte Carlo gradient estimators. As a prominent example, we focus on Monte Carlo variational inference (MCVI) in this paper. The performance of MCVI crucially depends on the variance of its stochastic gradients. We propose variance reduction by means of Quasi-Monte Carlo (QMC) sampling. QMC replaces N i.i.d. samples from a uniform probability distribution by a deterministic sequence of samples of length N. This sequence covers the underlying random variable space more evenly than i.i.d. draws, reducing the variance of the gradient estimator. With our novel approach, both the score function and the reparameterization gradient estimators lead to much faster convergence. We also propose a new algorithm for Monte Carlo objectives, where we operate with a constant learning rate and increase the number of QMC samples per iteration. We prove that this way, our algorithm can converge asymptotically at a faster rate than SGD . We furthermore provide theoretical guarantees on qmc for Monte Carlo objectives that go beyond MCVI , and support our findings by several experiments on large-scale data sets from various domains.},
+  pdf       = {http://proceedings.mlr.press/v80/buchholz18a/buchholz18a.pdf},
+  url       = {https://proceedings.mlr.press/v80/buchholz18a.html},
+}
+
+@Article{Kuo2008_QuasiMonteCarloForHighlyStructuredGeneralisedResponseModels,
+  author   = {Kuo, F. Y. and Dunsmuir, W. T. M. and Sloan, I. H. and Wand, M. P. and Womersley, R. S.},
+  journal  = {Methodology and Computing in Applied Probability},
+  title    = {Quasi-Monte Carlo for Highly Structured Generalised Response Models},
+  year     = {2008},
+  issn     = {1573-7713},
+  number   = {2},
+  pages    = {239--275},
+  volume   = {10},
+  abstract = {Highly structured generalised response models, such as generalised linear mixed models and generalised linear models for time series regression, have become an indispensable vehicle for data analysis and inference in many areas of application. However, their use in practice is hindered by high-dimensional intractable integrals. Quasi-Monte Carlo (QMC) is a dynamic research area in the general problem of high-dimensional numerical integration, although its potential for statistical applications is yet to be fully explored. We survey recent research in QMC, particularly lattice rules, and report on its application to highly structured generalised response models. New challenges for QMC are identified and new methodologies are developed. QMC methods are seen to provide significant improvements compared with ordinary Monte Carlo methods.},
+  doi      = {10.1007/s11009-007-9045-3},
+  refid    = {Kuo2008},
+  url      = {https://doi.org/10.1007/s11009-007-9045-3},
+}
+
+@InBook{Lemieux2009_VarianceReductionTechniques,
+  author    = {Lemieux, Christiane},
+  pages     = {1--52},
+  publisher = {Springer New York},
+  title     = {{Variance Reduction Techniques}},
+  year      = {2009},
+  address   = {New York, NY},
+  isbn      = {978-0-387-78165-5},
+  abstract  = {In Chap. 1, we said that one way of improving the Monte Carlo integration error is to try reducing the variance $\sigma$2 of the integrand f. More precisely, the goal is to find another function {\O} whose integral is equal to the integral of f but whose variance is smaller than that of f. Methods that achieve this are called variance reduction techniques, and we will be describing several of them in this chapter. This topic has been widely studied and is surveyed, for example, in [45, 165, 243, 247, 321, 391], which also give several other references.},
+  booktitle = {Monte Carlo and Quasi-Monte Carlo Sampling},
+  doi       = {10.1007/978-0-387-78165-5_4},
+  url       = {https://doi.org/10.1007/978-0-387-78165-5_4},
+}
+
+@InBook{Hoermann2004_GeneralPrinciplesInRandomVariateGeneration,
+  author    = {H{\"o}rmann, Wolfgang and Leydold, Josef and Derflinger, Gerhard},
+  pages     = {13--41},
+  publisher = {Springer Berlin Heidelberg},
+  title     = {{General Principles in Random Variate Generation}},
+  year      = {2004},
+  address   = {Berlin, Heidelberg},
+  isbn      = {978-3-662-05946-3},
+  abstract  = {This chapter is collecting the basic ideas and methods for the generation of continuous non-uniform random variates. They serve as the building blocks of universal algorithms. Most of these methods can also be used for discrete distributions which will be presented in Chap. 3. These methods can also be used as starting points for compiling algorithms to generate random vectors, which will be done in Chap. 11.},
+  booktitle = {Automatic Nonuniform Random Variate Generation},
+  doi       = {10.1007/978-3-662-05946-3_2},
+  url       = {https://doi.org/10.1007/978-3-662-05946-3_2},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: saveActions:disabled;
