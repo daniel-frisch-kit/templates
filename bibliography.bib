@@ -3414,6 +3414,86 @@ This chapter discusses computational investigations of low-discrepancy point set
   url    = {\url{https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design/logo-und-schrift/}},
 }
 
+@Article{Sra2012_AShortNoteOnParameterApproximationForVonMisesFisherDistributionsAndAFastImplementationOfIsx,
+  author   = {Sra, Suvrit},
+  journal  = {Computational Statistics},
+  title    = {{A Short Note on Parameter Approximation for von Mises--Fisher Distributions: And a Fast Implementation of $Is(x)$}},
+  year     = {2012},
+  issn     = {1613-9658},
+  number   = {1},
+  pages    = {177--190},
+  volume   = {27},
+  abstract = {In high-dimensional directional statistics one of the most basic probability distributions is the von Mises-Fisher (vMF) distribution. Maximum likelihood estimation for the vMF distribution turns out to be surprisingly hard because of a difficult transcendental equation that needs to be solved for computing the concentration parameter κ. This paper is a followup to the recent paper of Tanabe et al. (Comput Stat 22(1):145-157, 2007), who exploited inequalities about Bessel function ratios to obtain an interval in which the parameter estimate for κ should lie; their observation lends theoretical validity to the heuristic approximation of Banerjee et al. (JMLR 6:1345-1382, 2005). Tanabe et al. (Comput Stat 22(1):145-157, 2007) also presented a fixed-point algorithm for computing improved approximations for κ. However, their approximations require (potentially significant) additional computation, and in this short paper we show that given the same amount of computation as their method, one can achieve more accurate approximations using a truncated Newton method. A more interesting contribution of this paper is a simple algorithm for computing Is(x): the modified Bessel function of the first kind. Surprisingly, our naïve implementation turns out to be several orders of magnitude faster for large arguments common to high-dimensional data, than the standard implementations in well-established software such as Mathematica©, Maple©, and Gp/Pari.},
+  doi      = {10.1007/s00180-011-0232-x},
+  refid    = {Sra2012},
+  url      = {https://doi.org/10.1007/s00180-011-0232-x},
+}
+
+@Article{Fisher1953_DispersionOnASphere,
+  author    = {Fisher, Ronald},
+  journal   = {Proceedings of the Royal Society of London. Series A, Mathematical and Physical Sciences},
+  title     = {{Dispersion on a Sphere}},
+  year      = {1953},
+  issn      = {00804630},
+  number    = {1130},
+  pages     = {295--305},
+  volume    = {217},
+  abstract  = {[Any topological framework requires the development of a theory of errors of characteristic and appropriate mathematical form. The paper develops a form of theory which appears to be appropriate to measurements of position on a sphere. The primary problems of estimation as applied to the true direction, and the precision of observations, are discussed in the subcases which arise. The simultaneous distribution of the amplitude and direction of the vector sum of a number of random unit vectors of given precision, is demonstrated. From this is derived the test of significance appropriate to a worker whose knowledge of precision lies entirely in the internal evidence of the sample. This is the analogue of 'Student's' test in the Gaussian theory of errors. The general formulae obtained are illustrated using measurements of the direction of remanent magnetization in the directly and inversely magnetized lava flows obtained in Iceland by Mr J. Hospers.]},
+  database  = {JSTOR},
+  publisher = {The Royal Society},
+  url       = {http://www.jstor.org/stable/99186},
+}
+
+@InCollection{1999_DistributionsOnSpheres,
+  title    = {{Distributions on Spheres}},
+  year     = {1999},
+  month    = {#jan#},
+  pages    = {159-192},
+  series   = {Wiley Series in Probability and Statistics},
+  abstract = {Summary The prelims comprise: Spherical Data Descriptive Measures Models for Spherical Data Models for Axial Data Distiubution Theory Moments and Limiting Distributions},
+  doi      = {10.1002/9780470316979.ch9},
+  issn     = {9780470316979},
+  journal  = {Directional Statistics},
+  keywords = {palaeomagnetism, optical axes, quartz crystals, antipodal pairs, spherical data},
+  url      = {https://doi.org/10.1002/9780470316979.ch9},
+}
+
+@Article{Zhang2009_ProbabilisticWhiteMatterFiberTrackingUsingParticleFilteringAndVonMisesFisherSampling,
+  author   = {Fan Zhang and Edwin R. Hancock and Casey Goodlett and Guido Gerig},
+  journal  = {Medical Image Analysis},
+  title    = {{Probabilistic White Matter Fiber Tracking Using Particle Filtering and von Mises–Fisher Sampling}},
+  year     = {2009},
+  issn     = {1361-8415},
+  note     = {Includes Special Section on Medical Image Analysis on the 2006 Workshop Microscopic Image Analysis with Applications in Biology},
+  number   = {1},
+  pages    = {5-18},
+  volume   = {13},
+  abstract = {Standard particle filtering technique have previously been applied to the problem of fiber tracking by Brun et al. [Brun, A., Bjornemo, M., Kikinis, R., Westin, C.F., 2002. White matter tractography using sequential importance sampling. In: Proceedings of the ISMRM Annual Meeting, p. 1131] and Bjornemo et al. [Bjornemo, M., Brun, A., Kikinis, R., Westin, C.F., 2002. Regularized stochastic white matter tractography using diffusion tensor MRI, In: Proc. MICCAI, pp. 435–442]. However, these previous attempts have not utilised the full power of the technique, and as a result the fiber paths were tracked in a goal directed way. In this paper, we provide an advanced technique by presenting a fast and novel probabilistic method for white matter fiber tracking in diffusion weighted MRI (DWI), which takes advantage of the weighting and resampling mechanism of particle filtering. We formulate fiber tracking using a non-linear state space model which captures both smoothness regularity of the fibers and the uncertainties in the local fiber orientations due to noise and partial volume effects. Global fiber tracking is then posed as a problem of particle filtering. To model the posterior distribution, we classify voxels of the white matter as either prolate or oblate tensors. We then construct the orientation distributions for prolate and oblate tensors separately. Finally, the importance density function for particle filtering is modeled using the von Mises–Fisher distribution on a unit sphere. Fast and efficient sampling is achieved using Ulrich–Wood’s simulation algorithm. Given a seed point, the method is able to rapidly locate the globally optimal fiber and also provides a probability map for potential connections. The proposed method is validated and compared to alternative methods both on synthetic data and real-world brain MRI datasets.},
+  doi      = {https://doi.org/10.1016/j.media.2008.05.001},
+  keywords = {Diffusion tensor MRI, Tractography, Probabilistic fiber tracking, Particle filtering, von Mises–Fisher sampling},
+  url      = {https://www.sciencedirect.com/science/article/pii/S1361841508000534},
+}
+
+@InProceedings{Markovic2014_MovingObjectDetectionTrackingAndFollowingUsingAnOmnidirectionalCameraOnAMobileRobot,
+  author    = {Marković, Ivan and Chaumette, François and Petrović, Ivan},
+  booktitle = {2014 IEEE International Conference on Robotics and Automation (ICRA)},
+  title     = {{Moving Object Detection, Tracking and Following Using an Omnidirectional Camera on a Mobile Robot}},
+  year      = {2014},
+  pages     = {5630-5635},
+  doi       = {10.1109/ICRA.2014.6907687},
+}
+
+@Article{GarciaFernandez2019_GaussianTargetTrackingWithDirectionOfArrivalVonMisesFisherMeasurements,
+  author  = {García-Fernández, Ángel F. and Tronarp, Filip and Särkkä, Simo},
+  journal = {IEEE Transactions on Signal Processing},
+  title   = {{Gaussian Target Tracking With Direction-of-Arrival von Mises–Fisher Measurements}},
+  year    = {2019},
+  number  = {11},
+  pages   = {2960-2972},
+  volume  = {67},
+  doi     = {10.1109/TSP.2019.2911258},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: saveActions:disabled;
