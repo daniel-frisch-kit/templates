@@ -1,0 +1,65 @@
+\documentclass{article}
+
+%
+% Packages
+%
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{csquotes}
+\usepackage[backend=biber, style=ieee, sorting=count, backref=true, hyperref=true, defernumbers=true]{biblatex}
+\addbibresource{bibliography.bib}
+%\addbibresource{ISASPublikationen.bib}
+
+% Mark own publications by keyword
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{
+      \step[fieldsource=author, match=Frisch, final]
+      \step[fieldset=keywords, fieldvalue=own]
+    }
+  }
+}
+
+
+\usepackage{breqn}
+
+%
+% User-Defined Files
+%
+\input{abbreviations1}
+\input{acronyms}
+
+\begin{document}
+
+%
+% Content
+%
+test
+
+% \usepackage{breqn}
+\begin{dmath}
+a\paren{\int_0^1 \\ x^2}
+\end{dmath}
+
+\nocite{*} % too much if ISASPublications.bib is enabled! 
+
+\cite{Kalman1960_ANewApproachToLinearFilteringAndPredictionProblems, Daum2008_ParticleFlowForNonlinearFiltersWithLogHomotopy}
+\cite{Frisch2021_DeterministicSamplingOnTheCircleUsingProjectedCumulativeDistributions}
+%\cite{JAIF23_Frisch}
+
+
+%
+% Own Publications
+%
+\newrefcontext[labelprefix=O]
+\printbibliography[keyword=own, heading=subbibintoc, resetnumbers=true]
+
+%
+% Bibliography
+%
+\newrefcontext[labelprefix={}]
+\printbibliography[notkeyword=own, resetnumbers=true, heading=subbibintoc, title={Bibliography}]
+
+
+\end{document}
