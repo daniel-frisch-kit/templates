@@ -7,9 +7,16 @@
 \usepackage[english]{babel}
 \usepackage[hidelinks]{hyperref}
 \usepackage{csquotes}
-\usepackage[backend=biber, style=ieee, sorting=count, backref=true, hyperref=true, defernumbers=true]{biblatex}
+\usepackage{breqn} % dmath: parentheses over multiple lines
+
+% Bibliography
+\usepackage[backend=biber, style=numeric, sorting=nyt, backref=true, hyperref=true, defernumbers=true]{biblatex}
+% capitalize titles 
+\usepackage{mfirstuc-english} % for \capitalisewords
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,patent,thesis,unpublished]{title}{\capitalisewords{#1}}
 \addbibresource{bibliography.bib}
-%\addbibresource{ISASPublikationen.bib}
+\addbibresource{ISASPublikationen.bib}
+%\addbibresource{paperlocal.bib}
 
 % Mark own publications by keyword
 \DeclareSourcemap{
@@ -21,8 +28,6 @@
   }
 }
 
-
-\usepackage{breqn}
 
 %
 % User-Defined Files
@@ -42,24 +47,25 @@ test
 a\paren{\int_0^1 \\ x^2}
 \end{dmath}
 
+% Print ALL references in bib files
 \nocite{*} % too much if ISASPublications.bib is enabled! 
 
 \cite{Kalman1960_ANewApproachToLinearFilteringAndPredictionProblems, Daum2008_ParticleFlowForNonlinearFiltersWithLogHomotopy}
 \cite{Frisch2021_DeterministicSamplingOnTheCircleUsingProjectedCumulativeDistributions}
-%\cite{JAIF23_Frisch}
+\cite{JAIF23_Frisch}
 
 
 %
 % Own Publications
 %
 \newrefcontext[labelprefix=O]
-\printbibliography[keyword=own, heading=subbibintoc, resetnumbers=true]
+\printbibliography[keyword=own, heading=bibintoc, resetnumbers=true]
 
 %
 % Bibliography
 %
-\newrefcontext[labelprefix={}]
-\printbibliography[notkeyword=own, resetnumbers=true, heading=subbibintoc, title={Bibliography}]
+%\newrefcontext[labelprefix={}]
+%\printbibliography[notkeyword=own, resetnumbers=true, heading=subbibintoc, title={Bibliography}]
 
 
 \end{document}
